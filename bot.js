@@ -1,4 +1,5 @@
 var Bot = require('slackbots');
+var fs  = require('fs');
 
 const CONFIG = JSON.parse(fs.readFileSync(__dirname + '/config.json', 'utf8'));
 
